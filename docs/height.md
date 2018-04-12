@@ -81,9 +81,8 @@ line-height会撑起外边容器的高度。
 ```
 
 <center>
-<img src="https://github.com/baoendemao/css-summary/blob/master/images/table-cell-verticle.jpeg" height="100" width="100">
-</center>                                                                                                                      
-<br/>
+<img src="https://github.com/baoendemao/css-summary/blob/master/images/table-cell-verticle.jpeg" height="300" width="300">
+</center>                                                               
 可见，在table标签中，可以自动垂直居中，但是水平居中要加上text-align: center
 
 
