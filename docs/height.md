@@ -8,7 +8,7 @@
 #### line-height
 line-height指的是两个元素基线之间的距离
 
-![avatar](https://github.com/baoendemao/css-summary/blob/master/images/line-height-baseline.jpeg)
+ ![avatar](https://github.com/baoendemao/css-summary/blob/master/images/line-height-baseline.jpeg)
 
 从上图可以看出，基线并不在文字的中间位置，中文和底线之间还有一段距离。
 line-height会撑起外边容器的高度。
@@ -17,7 +17,46 @@ line-height会撑起外边容器的高度。
 默认值：baseline。还可以取值: bottom, middle, top 等等。
 其中top, middle, baseline, bottom分别指的是line-height部分中的图片里的顶线，中线，基线，底线。
 
-#### 怎么让元素垂直居中
-* 通过line-height
+#### 元素在指定高度中垂直居中
+* line-height
+* display: table; vertical-align: middle;
+
+```
+
+<div style="display: table;">
+    <div style="display: table-row;">
+        <div style="display: table-cell; border: 1px solid #ccc; height: 100px; vertical-align: middle;">张三</div>
+        <div style="display: table-cell; border: 1px solid #ccc; height: 100px; vertical-align: middle;">李四</div>
+        <div style="display: table-cell; border: 1px solid #ccc; height: 100px; vertical-align: middle;">王五</div>
+    </div>
+</div>
+
+```
+
+* table布局: 自动垂直居中
+
+```
+
+<table>
+    <tbody>
+        <tr>
+            <td class="text">张三</td> 
+            <td class="text">李四</td> 
+            <td class="text">王五</td> 
+        </tr>
+    </tbody>
+</table>
+
+.text {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #ccc;
+}
+
+```
+ ![avatar](https://github.com/baoendemao/css-summary/blob/master/images/table-verticle.jpeg)
+可见，在table标签中，可以自动垂直居中，但是水平居中要加上text-align: center
+
+
 
 
