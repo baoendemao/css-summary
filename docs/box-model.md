@@ -32,3 +32,35 @@
 
 ![avatar](https://github.com/baoendemao/css-summary/blob/master/images/tixing.png)
 
+#### padding
+* 注意: padding的百分比是根据父元素的宽度，不是高度。包括了padding-top, padding-right, padding-bottom, padding-left。
+
+#### margin
+* 注意：margin的百分比是根据父元素的宽度，不是高度。包括了margin-top, margin-right, margin-bottom, margin-left。
+
+#### box-shadow
+* 使用box-shadow画出两个一模一样的图形 
+![avatar](https://github.com/baoendemao/css-summary/blob/master/images/box-shadow-copy.png)
+
+```
+.button {
+    height: 45px;
+    width: 476px;
+    background: #ffbfc9;
+    box-shadow: 0 100px 0 0 #ffbfc9, 0 200px 0 0 #ffbfc9;
+}
+```
+
+box-shadow的参数依次是：x轴的偏移，y轴的偏移，模糊距离，阴影尺寸，阴影颜色
+
+* 使用box-shadow画出来边框
+
+![avatar](https://github.com/baoendemao/css-summary/blob/master/images/box-shadow-border.png)
+
+```
+.box {
+    box-shadow: 0 0 0px 7px #ffbfc9;
+}
+```
+
+#### border-radius
