@@ -43,7 +43,7 @@ line-height会撑起外边容器的高度。
 其中top, middle, baseline, bottom分别指的是line-height部分中的图片里的顶线，中线，基线，底线。
 
 #### 元素在指定高度中垂直居中
-* line-height
+* line-height   (不是严格的居中，上下可能有细微的偏差)
 * display: table; vertical-align: middle;
 
 ```
