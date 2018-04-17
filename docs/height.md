@@ -7,8 +7,10 @@
 
 #### line-height
 line-height指的是两个元素基线之间的距离
+<br/>
 
  ![avatar](https://github.com/baoendemao/css-summary/blob/master/images/line-height-baseline.jpeg)
+<br/>
 
 从上图可以看出，基线并不在文字的中间位置，中文和底线之间还有一段距离。
 line-height会撑起外边容器的高度。
@@ -22,7 +24,10 @@ line-height会撑起外边容器的高度。
 </div>
 
 ```
+<br/>
+
 ![avatar](https://github.com/baoendemao/css-summary/blob/master/images/span-line-height.png)
+<br/>
 
 可见虽然父级div盒子没有定义高度，但将line-height作用于inline元素，父级的盒子的高度撑高了到了子元素line-height的值。
 
@@ -33,7 +38,11 @@ line-height会撑起外边容器的高度。
     <span class="text">hello world</span>
 </div>
 ```
+
+<br/>
+
 ![avatar](https://github.com/baoendemao/css-summary/blob/master/images/span-line-height.png)
+<br/>
 
 可见父级的line-height也是作用于子inline元素的，使得子元素垂直居中
 
