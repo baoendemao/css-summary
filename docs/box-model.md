@@ -83,7 +83,7 @@ border-radius: 100px 100px 0 0;
 ```
 <br/>
 
-![avatar](https://github.com/baoendemao/css-summary/blob/master/images/half-circle.png)
+![avatar](https://github.com/baoendemao/css-summary/blob/master/images/half-circle.jpeg)
 <br/>
 
 * 使用border-radius画扇形
@@ -97,5 +97,5 @@ border-radius: 100px 0 0 0;
 
 <br/>
 
-![avatar](https://github.com/baoendemao/css-summary/blob/master/images/fourth-circle.png)
+![avatar](https://github.com/baoendemao/css-summary/blob/master/images/fourth-circle.jpeg)
 <br/>
