@@ -72,3 +72,30 @@ box-shadow的参数依次是：x轴的偏移，y轴的偏移，模糊距离，�
 ```
 
 #### border-radius
+* 使用border-radius画半圆
+
+```
+width: 200px;
+height: 100px;
+border: 1px solid blue;
+border-radius: 100px 100px 0 0;
+
+```
+<br/>
+
+![avatar](https://github.com/baoendemao/css-summary/blob/master/images/half-circle.png)
+<br/>
+
+* 使用border-radius画扇形
+
+```
+width: 100px;
+height: 100px;
+border: 1px solid blue;
+border-radius: 100px 0 0 0;
+```
+
+<br/>
+
+![avatar](https://github.com/baoendemao/css-summary/blob/master/images/fourth-circle.png)
+<br/>
