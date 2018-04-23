@@ -5,4 +5,5 @@
 * [浏览器css渲染机制](https://github.com/baoendemao/css-summary/tree/master/docs/css-render.md)
 * [盒子模型](https://github.com/baoendemao/css-summary/tree/master/docs/box-model.md)
 * [动画](https://github.com/baoendemao/css-summary/tree/master/docs/animation.md)
+* [sass](https://github.com/baoendemao/css-summary/tree/master/docs/sass.md)
 
